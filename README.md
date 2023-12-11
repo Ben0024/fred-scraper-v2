@@ -1,8 +1,17 @@
 # Fred Scraper
+## Execution
+#### Development
+```bash=
+$ MODE=dev python main.py
+```
+#### Production
+```bash=
+$ MODE=prod python main.py
+```
 
 ## Environment Variables
 * variables
-    `MODE` -  `prod` or `dev`(default)
+    `MODE` -  `prod` or `dev` (default)
 * dotenv files
     * production
         * `.env.local.production`
@@ -19,21 +28,7 @@
         * CUSTOM_STORAGE_DIR: directory to store the custom data for fred 
         * FRED_API_KEY: api key for fredapi
 
-## Tradefi - Fred
-
-### Execution
-
-Development
-```bash
-MODE=dev python main.py
-```
-
-Production
-```bash
-MODE=prod python main.py
-```
-
-### Structure
+## Structure
 * main.py
 * Fred engine
     * packages/fred/engine.py
