@@ -1,4 +1,4 @@
-# TradingView Scraper
+# Fred Scraper
 
 ## Environment Variables
 * variables
